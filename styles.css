@@ -1,0 +1,113 @@
+/* Color Lila: #4a4393
+   Color Azul Fuerte: #2d64a6
+   Color Aul Claro: #00a2d3 
+   Negor: #2c2a2c*/
+
+
+/* Classe utilizada para agrupar los iconos de contactos*/
+.Class_Icon_ContColor{
+	display: block; 
+	background-color: #00a2d3; 
+}
+
+.Class_Icon_Contacto{
+	display: block; 
+	background-color: #4a4393; 
+	width: 15px;
+}
+
+.Class_Icon_RedesSociales{
+	display: block; 
+	background-color: #4a4393; 
+	width: 30px;
+}
+
+
+/*Nombre de el propietario de la fimra */
+#Nombre_Firmante{
+	margin: 0px; 
+	font-size: 14px; 
+	font-family: 'Sinkin Sans 700 Bold', arial;
+	color: #06499b;
+	text-align: right;
+}
+
+/** <P> Cargo del firmate **/
+
+#P_Cargo_Firmante{
+	margin: 0px;
+	color: #06499b; 
+	font-size: 12px; 
+	line-height: 17px;
+	font-weight: bold; /**Pone el texto en negrita**/
+	text-align: right;
+}
+
+#correo_coorporativo{
+	margin: 0px;
+	color: #d60f0f; 
+	font-size: 12px; 
+	line-height: 18px;
+	font-weight: bold; /**Pone el texto en negrita**/
+	text-align: right;
+}
+
+#pbx_celular{
+	margin: 0px;
+	color: #9c9c9c; 
+	font-size: 14px; 
+	line-height: 14px;
+	font-weight: bold;
+	text-align: right;
+}
+
+.Titulos{
+	margin: 0px;
+	color: rgb(0, 0, 0); 
+	font-size: 14px; 
+	line-height: 22px;
+	font-weight: bold; /**Pone el texto en negrita**/
+}
+
+
+
+#TablaHorisontal{
+	width: 100%;
+}
+
+.Class_Tex_Datos{
+	color:#323232;
+}
+
+#Linea_DIV_Horisontal{
+	width: 100%;
+	border-bottom: 1px solid #2d64a6;
+	border-left: none;
+
+}
+
+#Linea_Div_Vertical{
+	width: 1px; 
+	border-bottom: none; 
+	border-left: 1px solid #2d64a6;
+}
+
+/*
+	Estilo para Redondear la foto de perfil
+ */
+.Redondeado img {
+	border: 5px solid #4a4393 ;
+	margin: 0;
+	padding: 0;
+	border-radius: 800px;
+	overflow: hidden;
+}
+
+
+/*
+	Formato Logo
+*/
+.Logo img{
+	width: 100;
+	max-width: 200px;
+}
