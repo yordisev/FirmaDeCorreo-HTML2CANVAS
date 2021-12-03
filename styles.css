@@ -27,7 +27,7 @@
 #Nombre_Firmante{
 	margin: 0px; 
 	font-size: 14px; 
-	font-family: 'Sinkin Sans 700 Bold', arial;
+	font-family: 'Swiss 721 Bold Win95BT', arial;
 	color: #06499b;
 	text-align: right;
 }
@@ -35,21 +35,19 @@
 /** <P> Cargo del firmate **/
 
 #P_Cargo_Firmante{
-	margin: 0px;
-	color: #06499b; 
+	margin: 0px; 
 	font-size: 12px; 
-	line-height: 17px;
-	font-weight: bold; /**Pone el texto en negrita**/
+	font-family: 'Swiss 721 Bold Win95BT', arial;
 	text-align: right;
+	color: #06499b;
 }
 
 #correo_coorporativo{
-	margin: 0px;
-	color: #d60f0f; 
+	margin: 0px; 
 	font-size: 12px; 
-	line-height: 18px;
-	font-weight: bold; /**Pone el texto en negrita**/
+	font-family: 'Swiss 721 Bold Win95BT', arial;
 	text-align: right;
+	color: #d60f0f; 
 }
 
 #pbx_celular{
