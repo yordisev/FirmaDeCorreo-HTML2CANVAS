@@ -1,26 +1,7 @@
-/* Color Lila: #4a4393
-   Color Azul Fuerte: #2d64a6
-   Color Aul Claro: #00a2d3 
-   Negor: #2c2a2c*/
-
-
-/* Classe utilizada para agrupar los iconos de contactos*/
-
-.Class_Icon_ContColor {
-    display: block;
-    background-color: #00a2d3;
-}
-
-.Class_Icon_Contacto {
-    display: block;
-    background-color: #4a4393;
-    width: 15px;
-}
-
-.Class_Icon_RedesSociales {
-    display: block;
-    background-color: #4a4393;
-    width: 30px;
+.imagesave {
+    background-color: #ffffff;
+    height: 176px;
+    width: 538px;
 }
 
 

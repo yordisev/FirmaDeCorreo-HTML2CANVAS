@@ -4,16 +4,17 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://allfont.es/allfont.css?fonts=swiss-721-bold-win95bt" rel="stylesheet" type="text/css" />
-    <link href="https://allfont.es/allfont.css?fonts=roboto-thin" rel="stylesheet" type="text/css" />
+    <!-- <link href="https://allfont.es/allfont.css?fonts=swiss-721-bold-win95bt" rel="stylesheet" type="text/css" />
+    <link href="https://allfont.es/allfont.css?fonts=roboto-thin" rel="stylesheet" type="text/css" /> -->
 
     <!-- https://allfont.es/download/roboto-thin/
     https://allfont.es/download/open-sans-bold/ -->
     <title></title>
 </head>
 
+
 <body>
-    <table cellpadding="0" cellspacing="0" class="TablaHorisontal">
+    <div id="contenedor1" class="imagesave">
         <tbody>
             <tr>
                 <td>
@@ -42,15 +43,15 @@
                                             <h3 id="correo_coorporativo">
                                                 <span>yordis.escorcia@cajacopieps.com</span>
                                             </h3>
-                                            <h2 id="pbx_celular">
-                                                <span>PBX: 318 5930 - 3860032 Ext. 234</span>
-                                            </h2>
-                                            <h2 id="pbx_celular">
-                                                <span>Linea gratuita nacional 01 8000 111 446</span>
-                                            </h2>
-                                            <h2 id="pbx_celular">
-                                                <span>Calle 44 # 46-16 / Barranquilla, Atl.</span>
-                                            </h2>
+                                            <p id="pbx_celular">
+                                                PBX: 318 5930 - 3860032 Ext. 234
+                                            </p>
+                                            <p id="pbx_celular">
+                                                Linea gratuita nacional 01 8000 111 446
+                                            </p>
+                                            <p id="pbx_celular">
+                                                Calle 44 # 46-16 / Barranquilla, Atl.
+                                            </p>
                                         </div>
                                     </div>
 
@@ -68,7 +69,33 @@
 
 
         </tbody>
-    </table>
+    </div>
+
+    <button id="btnCapturar">Tomar captura</button>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script>
+
+    <script src="canvasimagen.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script> -->
+
+    <script>
+        $(function() {
+            $("#btnSave").click(function() {
+                html2canvas($("#widget"), {
+                    onrendered: function(canvas) {
+                        theCanvas = canvas;
+                        document.body.appendChild(canvas);
+
+                        // Convert and download as image 
+                        $("#img-out").append(canvas);
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
