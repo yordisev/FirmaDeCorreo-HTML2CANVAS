@@ -18,7 +18,7 @@ $boton.addEventListener("click", () => {
             let enlace = document.createElement('a');
             enlace.download = "Firma de correo";
             // Convertir la imagen a Base64
-            enlace.href = canvas.toDataURL();
+            enlace.href = canvas.toDataURL("#contenedor1");
             // Hacer click en él
             enlace.click();
         });
