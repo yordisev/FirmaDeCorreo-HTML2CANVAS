@@ -51,3 +51,15 @@
     font-family: 'Roboto Thin',arial;
     text-align: right;
 }
+
+
+.button-10 {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+
+  color: #fff;
+  background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+   background-origin: border-box;
+
+}
