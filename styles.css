@@ -6,8 +6,6 @@
 }
 
 
-/*Nombre de el propietario de la fimra */
-
 #Nombre_Firmante {
     margin: 0px;
     font-size: 14px;
@@ -28,8 +26,6 @@
     left: 256px;
 }
 
-
-/** <P> Cargo del firmate **/
 
 #P_Cargo_Firmante {
     margin: 0px;
@@ -54,56 +50,4 @@
     line-height: 14px;
     font-family: 'Roboto Thin',arial;
     text-align: right;
-}
-
-.Titulos {
-    margin: 0px;
-    color: rgb(0, 0, 0);
-    font-size: 14px;
-    line-height: 22px;
-    font-weight: bold;
-    /**Pone el texto en negrita**/
-}
-
-#TablaHorisontal {
-    width: 100%;
-}
-
-.Class_Tex_Datos {
-    color: #323232;
-}
-
-#Linea_DIV_Horisontal {
-    width: 100%;
-    border-bottom: 1px solid #2d64a6;
-    border-left: none;
-}
-
-#Linea_Div_Vertical {
-    width: 1px;
-    border-bottom: none;
-    border-left: 1px solid #2d64a6;
-}
-
-
-/*
-	Estilo para Redondear la foto de perfil
- */
-
-.Redondeado img {
-    border: 5px solid #4a4393;
-    margin: 0;
-    padding: 0;
-    border-radius: 800px;
-    overflow: hidden;
-}
-
-
-/*
-	Formato Logo
-*/
-
-.Logo img {
-    width: 100;
-    max-width: 200px;
 }
