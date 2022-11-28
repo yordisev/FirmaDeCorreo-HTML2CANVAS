@@ -11,8 +11,8 @@
 #Nombre_Firmante {
     margin: 0px;
     font-size: 14px;
-    font-family: 'Swiss 721 Bold Win95BT', arial;
-    color: #06499b;
+    font-family: cursive;
+    color: #fdfdfd;
     text-align: right;
 }
 
@@ -24,8 +24,8 @@
 
 .texto-encima {
     position: absolute;
-    top: 80px;
-    left: 10px;
+    top: 64px;
+    left: 256px;
 }
 
 
@@ -34,25 +34,25 @@
 #P_Cargo_Firmante {
     margin: 0px;
     font-size: 12px;
-    font-family: 'Swiss 721 Bold Win95BT', arial;
+    font-family: cursive;
     text-align: right;
-    color: #06499b;
+    color: #fdfdfd;
 }
 
 #correo_coorporativo {
     margin: 0px;
     font-size: 12px;
-    font-family: 'Swiss 721 Bold Win95BT', arial;
+    font-family: cursive;
     text-align: right;
-    color: #ee0f0f;
+    color: #fdfdfd;
 }
 
 #pbx_celular {
     margin: 0px;
-    color: #9c9c9c;
+    color: #040404;
     font-size: 12px;
     line-height: 14px;
-    font-family: 'Roboto Thin', arial;
+    font-family: 'Roboto Thin',arial;
     text-align: right;
 }
 

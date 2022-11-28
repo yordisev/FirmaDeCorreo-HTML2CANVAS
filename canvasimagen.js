@@ -23,3 +23,18 @@ $boton.addEventListener("click", () => {
             enlace.click();
         });
 });
+
+function DescargarCarnet(){
+    var objetivo = document.querySelector("#contenedor_carnet");
+    html2canvas(objetivo,{
+        width: 200,
+        height: 380,
+        scale: 1,
+        removeContainer:true
+    }).then(canvas => {
+        let enlace = document.createElement('a');
+        enlace.download = "Carnet Funcionario";
+        enlace.href = canvas.toDataURL("#contenedor_carnet");
+        enlace.click();
+    });
+}
